@@ -21,6 +21,15 @@ public class User {
     @Column(name = "USER_EMAIL")
     String email;
 
+    public User() {
+    }
+
+    public User(String name, byte age, String email) {
+        this.name = name;
+        this.age = age;
+        this.email = email;
+    }
+
     public int getId() {
         return id;
     }
