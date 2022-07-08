@@ -6,10 +6,10 @@
 </head>
 <body>
 
-    <h2>Users list</h2>
-    <br/>
-    <div>
-    <table>
+<h1>Users list</h1>
+<br/>
+<th:if test="${!empty users}">
+    <table border="1" cellspacing="0">
         <tr>
             <th>id</th>
             <th>name</th>
@@ -23,12 +23,27 @@
             <td th:text="${user.getAge()}">age</td>
             <td th:text="${user.getEmail()}">e-mail</td>
             <td>
-                <a href="/edit/${user.id}">edit</a>
-                <a href="/delete/${user.id}">delete</a>
+                <a th:href="@{/users/edit/{id}(id=${user.getId()})}">Edit</a>
+                <a th:href="@{/users/remove/{id}(id=${user.getId()})}">Delete</a>
             </td>
         </tr>
     </table>
-    </div>
+</th:if>
+
+<h1>Add new User</h1>
+
+<form th:method="POST" th:action="@{/users/add}" th:object="${user}">
+    <label for="USER_NAME">Enter name:</label>
+    <input type="text" th:field="*{name}" id="USER_NAME"/>
+    <br/> <!-- пустая строка -->
+    <label for="USER_AGE">Enter age:</label>
+    <input type="text" th:field="*{age}" id="USER_AGE"/>
+    <br/>
+    <label for="USER_EMAIL">Enter email:</label>
+    <input type="text" th:field="*{email}" id="USER_EMAIL"/>
+    <br/>
+    <input type="submit" value="Add User"/>
+</form>
 
 </body>
 </html>

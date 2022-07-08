@@ -10,11 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39b4f9ff-cd94-42ed-9536-30bc54f09a56" name="Changes" comment="task PP_2_3_1 in process">
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/startPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/userslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/userslist.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,11 +79,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Java/MyLearning/SpringLessons/Lessone20_SpringMVC_CRUD_App3",
-    "project.structure.last.edited": "Facets",
+    "last_opened_file_path": "D:/Java/PreProject/PP_2_2_2_spring-mvc",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.47011495",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "File.Encoding",
     "spring.configuration.checksum": "ef00c71e0886e46c17fcd37b3d3efa0a"
   },
   "keyToStringList": {
@@ -214,7 +217,8 @@
       <workItem from="1657211308995" duration="2499000" />
       <workItem from="1657213926900" duration="1490000" />
       <workItem from="1657217966551" duration="2132000" />
-      <workItem from="1657223364929" duration="8100000" />
+      <workItem from="1657223364929" duration="8166000" />
+      <workItem from="1657298300258" duration="14313000" />
     </task>
     <task id="LOCAL-00001" summary="task PP_2_3_1 in process">
       <created>1657139019389</created>
@@ -237,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657227395671</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="task PP_2_3_1 in process">
+      <created>1657231785886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657231785886</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
