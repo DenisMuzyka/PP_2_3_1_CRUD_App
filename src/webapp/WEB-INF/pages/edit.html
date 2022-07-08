@@ -7,16 +7,17 @@
 <body>
 
 <form th:method="PATCH" th:action="@{/users/{id}(id=${user.getId()})}" th:object="${user}">
-    <label for="USER_NAME">Enter name:</label>
     <input type="text" th:field="*{name}" id="USER_NAME"/>
-    <br/> <!-- пустая строка -->
-    <label for="USER_AGE">Enter age:</label>
+    <label for="USER_NAME">Enter name</label>
+    <br/>
     <input type="text" th:field="*{age}" id="USER_AGE"/>
+    <label for="USER_AGE">Enter age</label>
     <br/>
-    <label for="USER_EMAIL">Enter email:</label>
     <input type="text" th:field="*{email}" id="USER_EMAIL"/>
+    <label for="USER_EMAIL">Enter email</label>
     <br/>
-    <input type="submit" value="Update!"/>
+    <br/>
+    <input type="submit" value="Update"/>
 </form>
 
 </body>

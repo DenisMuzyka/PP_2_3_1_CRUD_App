@@ -33,14 +33,15 @@
 <h1>Add new User</h1>
 
 <form th:method="POST" th:action="@{/users/add}" th:object="${user}">
-    <label for="USER_NAME">Enter name:</label>
     <input type="text" th:field="*{name}" id="USER_NAME"/>
-    <br/> <!-- пустая строка -->
-    <label for="USER_AGE">Enter age:</label>
-    <input type="text" th:field="*{age}" id="USER_AGE"/>
+    <label for="USER_NAME">Enter name</label>
     <br/>
-    <label for="USER_EMAIL">Enter email:</label>
+    <input type="text" th:field="*{age}" id="USER_AGE"/>
+    <label for="USER_AGE">Enter age</label>
+    <br/>
     <input type="text" th:field="*{email}" id="USER_EMAIL"/>
+    <label for="USER_EMAIL">Enter email</label>
+    <br/>
     <br/>
     <input type="submit" value="Add User"/>
 </form>

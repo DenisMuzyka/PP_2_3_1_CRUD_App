@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39b4f9ff-cd94-42ed-9536-30bc54f09a56" name="Changes" comment="task PP_2_3_1 is done">
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/startPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/startPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/userslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/userslist.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +212,7 @@
       <workItem from="1657213926900" duration="1490000" />
       <workItem from="1657217966551" duration="2132000" />
       <workItem from="1657223364929" duration="8166000" />
-      <workItem from="1657298300258" duration="14696000" />
+      <workItem from="1657298300258" duration="16804000" />
     </task>
     <task id="LOCAL-00001" summary="task PP_2_3_1 in process">
       <created>1657139019389</created>
@@ -247,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657315970986</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="task PP_2_3_1 is done">
+      <created>1657316219313</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657316219313</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
